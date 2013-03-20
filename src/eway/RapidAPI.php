@@ -27,8 +27,15 @@ class RapidAPI {
         $this->format = $config['format'];
         $this->method = $config['method'];
         $this->debug = $config['debug'];
+    }
 
-        //die(print_r($this->config));
+    /*
+    *   Useful for a view helper.
+    *   I don't love this...   
+    */
+    public function getJavascriptSrc()
+    {
+        return $this->baseUrl . $this->config['jsonpScript'];
     }
 
     /**
