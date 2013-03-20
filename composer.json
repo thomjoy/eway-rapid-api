@@ -1,0 +1,13 @@
+{
+    "name": "eway/rapid",
+    "version": "0.1",
+    "homepage": "https://github.com/thomjoy/eway-rapid-api",
+    "autoload": {
+        "psr-0": {
+            "eway": "src/Eway"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
