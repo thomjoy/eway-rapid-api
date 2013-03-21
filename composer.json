@@ -1,6 +1,6 @@
 {
     "name": "eway/rapid",
-    "version": "0.13",
+    "version": "0.14",
     "homepage": "https://github.com/thomjoy/eway-rapid-api",
     "autoload": {
         "psr-0": {
